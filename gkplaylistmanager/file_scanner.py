@@ -12,8 +12,8 @@ def read_metadata(path):
             return Track(path, title, artist, album)
     except Exception:
         pass
-    # Fallback: just the filename
-    return Track(path, os.path.splitext(os.path.basename(path))[0])
+    # Fallback: use filename and empty artist/album
+    return Track(path, os.path.splitext(os.path.basename(path))[0], '', '')
 
 def scan_music_dirs(dirs):
     tracks = []
