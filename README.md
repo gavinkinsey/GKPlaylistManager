@@ -33,7 +33,7 @@ This project uses **clean architecture** with a clear separation between busines
 - **View Layer** (`ui/main_window.py`) - Pure Qt presentation, thin and focused
 - **Data Layer** (`core.py`, `data_store.py`, `file_scanner.py`) - Models and persistence
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed documentation.
+See the core code, documentation, and issue tracker for detailed information.
 
 ## Project Structure
 
@@ -43,7 +43,7 @@ GKPlaylistManager/
 ├── requirements.txt
 ├── README.md
 ├── ARCHITECTURE.md                  # Architecture documentation
-├── REFACTORING_GUIDE.md             # Quick reference
+├── README.md
 ├── HOW_TO_EXTEND.md                 # Extension patterns
 ├── gkplaylistmanager/
 │   ├── __init__.py
@@ -83,7 +83,7 @@ Add new features once, work everywhere:
 - **Web API**: Create a new controller, reuse Application layer
 - **Mobile**: Create a new controller, reuse Application layer
 
-See [HOW_TO_EXTEND.md](HOW_TO_EXTEND.md) for detailed patterns.
+See the issue tracker for detailed patterns.
 
 ---
 
